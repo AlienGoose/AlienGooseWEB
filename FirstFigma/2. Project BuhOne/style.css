@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+    overflow: auto;
+    
+    
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.65;
+    font-family: 'Montserrat' serif;
+}
+
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.wrapper {
+    width: 1110px;
+    margin: 0 auto;
+
+    /* display: flex; */
+}
+
+.header__wrapper {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 523px;
+
+    display: flex;
+}
+
+
+.menu-top__left, .menu-top__right {
+    display: flex;
+    list-style-type: none;
+    margin-top: 0;
+    padding-top: 35px;
+}
+.menu-top__left {
+    padding-left: 0;
+}
+
+.nav__link__left, .nav__link__right {
+    margin-top: 43px;
+    margin-right: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: white;
+    text-decoration: none;
+}
+
+li:last-child .nav__link__left {
+    margin-right: 0;
+}
+
+li:last-child .nav__link__right {
+    margin-right: 0;
+}
+
+.menu-top__right {
+    padding: 0;
+    padding-top: 35px;
+}
+
+.logo-img {
+    margin-left: 126px;
+    margin-right: 120px;
+    margin-top: 17px;
+}
+
+.icons {
+    margin-top: 32px;
+    margin-left: 64px;
+}
+
+.heart {
+    width: 16px;
+    height: 16px;
+}
+
+.man {
+    margin-left: 30px;
+}
+
+.search__icon {
+    margin-right: 5px;
+}
+
+/* /////////////////////////////////////////// */
+
+.intro {
+background-image: url(/img/bgc.jpg);
+background-repeat: no-repeat;
+background-position: 0 0;
+background-size: cover;
+height: 100vh;
+}
+
+
+.title {
+    color: #fff;
+    text-align: center;
+    font-family: Noto Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 50px;
+}
+
+
+.catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn {
+position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+padding: 15px 35px;
+width: 261px;
+height: 51px;
+background: #333333;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+}
+
+
+.btn:hover {
+    cursor: pointer;
+    background: #1b1b1b;
+}
+
+.btn_link {
+color: #fff;
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+.line {
+    border: 1px solid #FFFFFF;
+    width: 1920px;
+    position: absolute;
+    left: 0;
+    margin-top: 80px;
+}
+
+.table {
+    margin-left: 405px;
+    margin-top: 110px;
+    width: auto;
+    position: absolute;
+    left: 0;
+}
+
+.td__border {
+    border-right: 1px solid #FFFFFF;
+    padding: 0 15px;
+}
+
+td:first-child .td__border {
+    padding-left: 0;
+}
